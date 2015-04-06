@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>Random Animation Demo</title>
+		<link href='http://fonts.googleapis.com/css?family=Paytone+One|Raleway' rel='stylesheet' type='text/css' />
+		<style>
+			.container {
+				background: #bbe;
+				width: 640px;
+				height: 360px;
+				overflow: hidden;
+			}
+			.animation {
+				width: 640px;
+				height: 290px;
+				font: 250px/1.2 'Paytone One', fantasy;
+				text-align: center;
+				position: relative;
+			}
+			.footer {
+				color: #666;
+				font: 24px/1 'Raleway', sans-serif;
+				text-align: center;
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="animation">AOV</div>
+			<div class="footer">Analysis of Variance</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="jquery.randomanim.js"></script>
+		<script>
+			$(".animation").randomAnim({
+	    		duration: 6000,
+	    		interval: 200
+			}, function() {
+				$(".footer").fadeIn("slow");
+			});
+		</script>
+	</body>
+</html>
