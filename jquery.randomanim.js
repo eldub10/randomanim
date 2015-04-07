@@ -90,7 +90,9 @@
 
 				if(duration < 0) {
 					clearInterval(timer);
-					fnComplete(this);
+					if($.isFunction(fnComplete)) {
+						fnComplete.call(this);
+					}
 				}
 			}, interval);
 		});
