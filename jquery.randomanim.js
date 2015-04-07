@@ -19,7 +19,7 @@
     	return this.each( function() {
     		var duration = settings.duration;
     		var interval = settings.interval;
-    		fnComplete = settings.complete;
+    		var fnComplete = settings.complete;
 			var maxX = $(this).height();
 			var maxY = $(this).width();
 			var maxH = $(this).height();
@@ -86,10 +86,12 @@
 					});
 				}
 
+				// stop timer when duration countdown ends
 				duration -= interval;
-
 				if(duration < 0) {
 					clearInterval(timer);
+
+					// call completion function
 					if($.isFunction(fnComplete)) {
 						fnComplete.call(this);
 					}
