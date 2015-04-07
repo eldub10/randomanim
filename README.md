@@ -15,11 +15,11 @@ There are 4 different plugins:
 * Word zoom (TBA)
 * Kaleidoscope letters (TBA)
 
-These plugins are based on Director animations I made more than 20 years ago. You can see [animated gifs](http://github.com/eldub10/randomanim/img/aov.gif) of the original projects. I used these animations to get my first job as a multimedia developer in 1994 :)
+These plugins are based on Director animations I made more than 20 years ago. You can see [animated gifs](http://eldub10.github.io/randomanim/images/aov.gif) of the original projects. I used these animations to get my first job as a multimedia developer in 1994 :)
 
 See a demo and find out more information about this work-in-progress:
 
-http://github.com/eldub10/randomanim
+http://eldub10.github.io/randomanim
 
 ##Usage
 
