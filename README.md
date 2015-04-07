@@ -1,21 +1,6 @@
 #RandomAnim
 
-This is part of a collection of JQuery plugins that will animate text in various random ways.
-
-I created these plugins to:
-* brush up on my JavaScript and CSS skills
-* improve my JQuery
-* learn new HTML5 and CSS3 technologies
-* learn more about the Google Font API
-* learn more about GitHub
-
-There are 4 different plugins:
-* [Random letter styles](http://github.com/eldub10/randomanim/)
-* [Random font families](http://github.com/eldub10/fontanim/)
-* Word zoom (TBA)
-* Kaleidoscope letters (TBA)
-
-These plugins are based on Director animations I made more than 20 years ago. You can see [animated gifs](http://eldub10.github.io/randomanim/images/aov.gif) of the original projects. I used these animations to get my first job as a multimedia developer in 1994 :)
+This is part of a collection of JQuery plugins that animate text in various random ways.
 
 See a demo and find out more information about this work-in-progress:
 
