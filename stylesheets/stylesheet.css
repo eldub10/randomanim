@@ -369,49 +369,6 @@ Full-Width Styles
 }
 
 /*******************************************************************************
-randomanim
-*******************************************************************************/
-
-.container {
-  background: #fff;
-  width: 640px;
-  height: 360px;
-  overflow: hidden;
-  margin: 60px auto 0;
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
-}
-.animation {
-  width: 640px;
-  height: 290px;
-  font: 250px/1.2 'Paytone One', fantasy;
-  text-align: center;
-  position: relative;
-}
-.tagline {
-  color: #666;
-  font: 24px/1 'Raleway', sans-serif;
-  text-align: center;
-  display: none;
-}
-.container2 {
-  width: 640px;
-  height: 20px;
-  margin: auto;
-  padding: 10px 0;
-}
-#replay {
-  display: block;
-  float: right;
-  padding: 6px 20px;
-  text-align: center;
-  color: #fff;
-  background: #0090ff;
-  font-weight: 700;
-  border-radius: 2px;
-  cursor: pointer;
-}
-
-/*******************************************************************************
 Small Device Styles
 *******************************************************************************/
 
@@ -465,3 +422,13 @@ Small Device Styles
 
 }
 
+/*******************************************************************************
+RandomAnim
+*******************************************************************************/
+
+.demo {
+  display: block;
+  width: 660px;
+  height: 480px;
+  margin: 60px auto 0;
+}
